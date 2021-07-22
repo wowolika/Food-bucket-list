@@ -3,24 +3,62 @@
 <head> 
     <title>Food Bucket List - 떡볶이</title>
     <meta charset="utf-8">
+     <style>
+        
+        #active {
+             color:deeppink;
+         } 
+      a {
+            color:dimgray; text-decoration:none;
+        }
+        h1 {
+            font-size: 42px; text-align:center;
+            margin:40px 0px 10px;
+            padding-bottom:35px;
+            border-bottom: gray 1px solid;
+        }
+        #grid {
+            display:grid;
+            grid-template-columns: 190px 1fr;
+        }
+        ol {
+            display:block;
+            margin: 0px;
+            width: 150px;    
+            padding-top:25px;  
+        }
+        #grid #article {
+            padding-left: 20px;  
+            border-left: gray 1px dashed;
+         }
+    </style>
 </head>
 <body>
-   <h1><a href="index.html">Food Bucket List</a></h1>
-    <ol>
-        <li><a href="1.html">떡볶이</a></li>
+    <h1>
+        <a href="index.html"><font color="coral">Food Bucket List</font></a></h1>
+   <div id=grid>
+       <ol>
+        <li><a href="1.html" id="active">떡볶이</a></li>
         <li><a href="2.html">랍스타</a></li>
         <li><a href="3.html">구운 고기</a></li>
     </ol>
-    <h6>Food Bucket List 01</h6>
-    <h2>떡볶이란?</h2>
-    <img src="%EB%96%A1%EB%B3%B6%EC%9D%B4.webp" width="450px">
-        <P>떡볶이는 <strong>떡면(얇은 가래떡)을 주재료로 하는 한국 요리이다.</strong> <br>일반적인 떡볶이는 밀떡, 쌀떡, 어묵, 채소, 고추장 등의 양념을 넣어 볶은 음식으로 <u>한국의 대표적 길거리 음식</u>이다. 매운 <a href="https://namu.wiki/w/%EA%B3%A0%EC%B6%94%EC%9E%A5" target="_blank" title="고추장-나무위키">고추장</a>과 짭짤한 간장을 기본으로 양념할 수 있는데 전자가 가장 대표적인 형태다.</P>
-        <p>가장 흔한 방식은 고추장을 사용한 빨간 떡볶이고, 간장, 케첩, 카레, 짜장, 크림소스 등의 양념을 사용한 방식도 있다. 그 중 나의 최애는 단연코 빨간 고추장 떡볶이다.</p>
-    <h2>나의 떡볶이 역사의 시작</h2>
-       <img src=%EB%96%A1%EB%B3%B5%EC%9D%B4%EC%97%AD%EC%82%AC.PNG width="450px">
-        <p>나의 떡볶이 사랑은 중학교 2학년부터 시작된다. <u>그 역사의 시작은 내가 짝사랑했던 남학생으로부터 시작된다.</u> 그 친구는 집에서 요리를 곧잘 한다면서 떡볶이를 만들 수 있다고 했다. 그 이야기를 들은 나는 어째서인지 지고 싶지 않아서 맛있는 떡볶이를 직접 만드는 능력자가 되고 싶었다.</p>
-        <p>그렇게 시작된 나의 떡볶이 역사는 지금도 계속 되고 있다. 떡볶이가 탄수화물 범벅인 고칼고리 요리라는 것을 알고 난 후에는 아쉽게도 먹는 횟수를 줄이고 있다.<strong>그래도 괜찮다. 이제 나는 떡볶이 만들기 도사가 되었으니 내가 원하면 언제든지 내 스타일대로 떡볶이를 만들어 먹을 수 있다.</strong></p>
+    <div id="article">
+        <h6>Food Bucket List 01</h6>
+        <h2>떡볶이란?</h2>
+        <img src="%EB%96%A1%EB%B3%B6%EC%9D%B4.webp" width="450px">
+            <P>떡볶이는 <strong>떡면(얇은 가래떡)을 주재료로 하는 한국 요리이다.</strong> <br>일반적인 떡볶이는 밀떡, 쌀떡, 어묵, 채소, 고추장 등의 양념을 넣어 볶은 음식으로 <u>한국의 대표적 길거리 음식</u>이다. 매운 <a href="https://namu.wiki/w/%EA%B3%A0%EC%B6%94%EC%9E%A5" target="_blank" title="고추장-나무위키">고추장</a>과 짭짤한 간장을 기본으로 양념할 수 있는데 전자가 가장 대표적인 형태다.</P>
+            <p>가장 흔한 방식은 고추장을 사용한 빨간 떡볶이고, 간장, 케첩, 카레, 짜장, 크림소스 등의 양념을 사용한 방식도 있다. 그 중 나의 최애는 단연코 빨간 고추장 떡볶이다.</p>
+        <h2>나의 떡볶이 역사의 시작</h2>
+       <img     src=%EB%96%A1%EB%B3%B5%EC%9D%B4%EC%97%AD%EC%82%AC.PNG width="450px">
+            <p>나의 떡볶이 사랑은 중학교 2학년부터 시작된다. <u>그 역사의 시작은 내가 짝사랑했던 남학생으로부터 시작된다.</u> 그 친구는 집에서 요리를 곧잘 한다면서 떡볶이를 만들 수 있다고 했다. 그 이야기를 들은 나는 어째서인지 지고 싶지 않아서 맛있는 떡볶이를 직접 만드는 능력자가 되고 싶었다.</p>
+            <p>그렇게 시작된 나의 떡볶이 역사는 지금도 계속 되고 있다. 떡볶이가 탄수화물 범벅인 고칼고리 요리라는 것을 알고 난 후에는 아쉽게도 먹는 횟수를 줄이고 있다.<strong>그래도 괜찮다. 이제 나는 떡볶이 만들기 도사가 되었으니 내가 원하면 언제든지 내 스타일대로 떡볶이를 만들어 먹을 수 있다.</strong></p>
+        <h2>백종원의 떡볶이 레시피</h2>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/t4Es8mwdYlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
+   </div>
+        
+    
 </body>
-</html>
+    </html>
 
 

@@ -3,18 +3,52 @@
 <head> 
     <title>Food Bucket List - 구운 고기</title>
     <meta charset="utf-8">
+     <style>
+       #active {
+             color:deeppink;
+         } 
+      a {
+            color:dimgray; text-decoration:none;
+        }
+        h1 {
+            font-size: 42px; text-align:center;
+            margin:40px 0px 10px;
+            padding-bottom:35px;
+            border-bottom: gray 1px solid;
+        }
+        #grid {
+            display:grid;
+            grid-template-columns: 190px 1fr;
+        }
+        ol {
+            display:block;
+            margin: 0px;
+            width: 150px;    
+            padding-top:25px;  
+        }
+        #grid #article {
+            padding-left: 20px;  
+            border-left: gray 1px dashed;
+         }
+    </style>
 </head>
 <body>
-   <h1><a href="index.html">Food Bucket List</a></h1>
-    <ol>
+      <h1><a href="index.html"><font color="coral">Food Bucket List</font></a></h1>
+      <div id=grid>
+       <div>
+        <ol>
         <li><a href="1.html">떡볶이</a></li>
         <li><a href="2.html">랍스타</a></li>
-        <li><a href="3.html">구운 고기</a></li>
-    </ol>
-    <h6>Food Bucket List 03</h6>
-    <h2>구운 고기</h2>
-    <img src="gogi.PNG" width="450px"><br>
-    <img src="gogi2.PNG" width="450px">
-    <P>삼겹살, 구운 소고기가 먹고 싶다. 든든하게 배불리 먹고 싶다.</P>
+        <li><a href="3.html" id="active">구운 고기</a></li>
+        </ol>
+      </div>
+      <div id=article>
+        <h6>Food Bucket List 03</h6>
+        <h2>구운 고기</h2>
+        <img src="gogi.PNG" width="450px"><br>
+        <img src="gogi2.PNG" width="450px">
+        <P>삼겹살, 구운 소고기가 먹고 싶다. 든든하게 배불리 먹고 싶다.</P> 
+      </div>
+    </div>
 </body>
 </html>
